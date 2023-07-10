@@ -142,3 +142,18 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+/* Social Network Image Galary */
+.social-media-galary-container {
+  display: flex;
+  gap: 25px;
+}
+.social-media-galary-container img {
+  width: 342px;
+  height: 396px;
+}
+
+.social-media-galary-container img:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+}
