@@ -7,8 +7,16 @@ body {
   font-family: "Lato", sans-serif;
 }
 /* Shared Style */
-.description {
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.section-description {
   color: rgba(39, 39, 39, 0.6);
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -26,12 +34,23 @@ body {
   color: yellow;
   border: 1px solid black;
 }
+section {
+  margin: 128px 0px;
+  padding: 0 200px;
+}
+.featured-galary {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+}
+
 /* Header Related Style */
 header {
   background: rgba(229, 84, 115, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
   padding: 50px 200px 0px 200px;
 }
 .banner-title {
@@ -39,10 +58,73 @@ header {
   font-size: 80px;
   font-weight: 800;
 }
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
 .banner-column > p {
   padding: 32px 0;
   width: 634px;
 }
 .banner-image {
   width: 635px;
+}
+
+/* Featured Section related Style */
+.featured-image-galary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.featured-image-galary-column1 {
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 76px 0px 76px;
+}
+.featured-image-galary-column2 {
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 50px 47px;
+}
+.featured-image-galary-column3 {
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px 75px;
+}
+.flower-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+.flower-links a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* services section Start */
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 85px 0;
+}
+.services-column {
+  align-items: center;
+}
+.services-container img {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+.services-container h6 {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 24px;
 }
