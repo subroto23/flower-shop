@@ -30,9 +30,7 @@ body {
 .header-container {
   background: rgba(229, 84, 115, 0.1);
   display: flex;
-}
-.banner-column {
-  padding: 0 30px;
+  justify-content: space-around;
 }
 .banner-title {
   color: #272727;
@@ -41,7 +39,7 @@ body {
   margin-top: 200px;
 }
 .banner-column > p {
-  padding: 32px 0;
+  margin-top: 32px;
 }
 .banner-image {
   width: 635px;
