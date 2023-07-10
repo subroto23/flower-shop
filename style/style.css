@@ -146,7 +146,7 @@ header {
 /* Social Network Image Galary */
 .social-media-galary-container {
   display: flex;
-  gap: 25px;
+  justify-content: space-between;
 }
 .social-media-galary-container img {
   width: 342px;
@@ -156,4 +156,19 @@ header {
 .social-media-galary-container img:hover {
   border: 2px solid black;
   border-radius: 10px;
+}
+
+/* Latest Deals related style */
+.deals-container {
+  background-image: url("../images/Rectangle9.png");
+  border-radius: 8px;
+  border: 0;
+  padding: 120px 285px;
+}
+
+#email {
+  padding: 22px;
+  margin-right: 15px;
+  border: 0;
+  width: 65%;
 }
