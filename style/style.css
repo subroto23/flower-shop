@@ -20,6 +20,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 32px;
 }
 .btn-primary {
   background: #e55473;
@@ -34,7 +35,7 @@ body {
   color: yellow;
   border: 1px solid black;
 }
-section {
+.container {
   margin: 128px 0px;
   padding: 0 200px;
 }
@@ -127,4 +128,17 @@ header {
   font-weight: 600;
   line-height: 35px;
   margin-top: 24px;
+}
+
+/* Discount Section Start */
+.discount-container {
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+.discount-column button {
+  display: block;
+  margin: 0 auto;
 }
