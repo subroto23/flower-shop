@@ -188,6 +188,78 @@ body {
   border-radius: 10px;
 }
 
+/* selling section Related Style */
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-secoundry {
+  color: #4e4b4b;
+  font-size: 25px;
+  font-weight: 400;
+  border: 0;
+  background-color: white;
+  text-transform: capitalize;
+}
+.btn-active {
+  border-radius: 10px;
+  background: #29236c;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 15px 25px;
+}
+.btn-secoundry:hover,
+.btn-active:hover {
+  color: #e55473;
+  cursor: pointer;
+}
+.selling-flower-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.card-container {
+  border: 1px solid rgb(208, 208, 208);
+  box-shadow: -2px -4px 3px rgba(178, 178, 178, 0.2);
+}
+.card-container:hover {
+  border: 1px solid black;
+}
+.selling-items-column {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px 25px;
+}
+.sell-items-column-1 {
+  background: #ffe2e2;
+}
+.sell-items-column-2 {
+  background: #e0f0ff;
+}
+.sell-items-column-3 {
+  background: #fff5c0;
+}
+.sell-items-column-4 {
+  background: #ebdbe4;
+}
+.selling-items-column > img {
+  width: 300px;
+  height: 300px;
+}
+.selling-items-body {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.product-title a {
+  text-decoration: none;
+}
+.product-prise {
+  color: red;
+  font-size: 30px;
+  margin-top: 5px;
+}
 /* Latest Deals related style */
 .deals-container {
   background-image: url("../images/Rectangle9.png");
