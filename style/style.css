@@ -255,6 +255,9 @@ body {
 .product-title a {
   text-decoration: none;
 }
+.product-title a:hover {
+  color: blue;
+}
 .product-prise {
   color: red;
   font-size: 30px;
